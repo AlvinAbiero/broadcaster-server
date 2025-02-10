@@ -1,0 +1,24 @@
+{
+  "name": "broadcaster-server",
+  "version": "1.0.0",
+  "description": "The goal of this project is to help me understand how to work with websockets and implement real-time communication between clients and servers.",
+  "bin": {
+    "broadcast-server": "./bin/broadcast-server.js"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node bin/cli.js start",
+    "connect": "node bin/cli.js connect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "ws": "^8.18.0",
+    "yargs": "^17.7.2"
+  }
+}
